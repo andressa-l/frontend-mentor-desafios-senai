@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Fraunces:wght@400;500;600;700;800;900&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --prymary-color-cyan: hsl(158, 36%, 37%);
+    --primary-text-attribution: hsl(126, 45%, 44%);
+    --primary-color-cream: hsl(30, 38%, 92%);
+
+    --neutral-color-blue: hsl(212, 21%, 14%);
+    --neutral-color-grayish-blue: hsl(228, 12%, 48%);
+    --neutral-color-white: hsl(0, 0%, 100%);
+
+}
+
+
+body {
+    background: var(--primary-color-cream);
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: var(--neutral-color-white);
+    box-shadow: 0 0.063rem 0.188rem rgba(28, 35, 43, 0.12), 0 0.063rem 0.125rem rgba(28, 35, 43, 0.24);
+    color: var(--neutral-color-blue);
+    margin: 1.5rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    max-width: 37.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.img-container img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.details-container {
+    padding: 2rem;
+}
+
+.details-container .name {
+    font-size: 2.1rem;
+    font-weight: 700;
+    line-height: 0.95;
+    font-family: "Fraunces", sans-serif;
+    margin-block: 1.2rem;
+
+}
+
+.details-container .description {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--neutral-color-grayish-blue);
+    line-height: 1.7;
+}
+
+.montserrat {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--neutral-color-grayish-blue);
+    text-transform: uppercase;
+    letter-spacing: 0.35em;
+}
+
+.price-container {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-block: 1.4rem;
+    font-family: "Fraunces", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.7rem;
+    color: var(--prymary-color-cyan);
+}
+
+.price-container .current-price {
+    color: var(--prymary-color-cyan);
+}
+
+.price-container .old-price {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--neutral-color-grayish-blue);
+}
+
+.price-container .old-price .but {
+    position: absolute;
+    width: 0.063rem;
+    height: 0.063rem;
+    padding: 0;
+    margin: -0.063rem;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+button.btn {
+    width: 100%;
+    border: 0;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    cursor: pointer;
+    display: flex;
+    gap: 0.4rem;
+    justify-content: center;
+    background-color: var(--prymary-color-cyan);
+    font-weight: 700;
+    color: var(--neutral-color-white);
+}
+
+.details-container .btn:hover {
+    background-color: var(--neutral-color-blue);
+}
+
+.attribution {
+    margin-block: 0.5rem;
+    font-size: 0.735rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: var(--primary-text-attribution);
+}
+
+
+
+@media screen and (min-width: 41.25em) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (hover: hover) {
+    .container:hover {
+        box-shadow: 0 0.875rem 1.75rem rgba(28, 35, 43, 0.25), 0 0.625rem 0.625rem rgba(28, 35, 43, 0.22);
+    }
+}
+
+@media screen and (min-width: 36em) and (min-height: 36.25em) {
+    .attribution {
+        position: fixed;
+        bottom: 0.325rem;
+        width: 100%;
+    }
+}
+
+@media (hover: hover) {
+    .attribution a:hover {
+        color: var(--prymary-color-cyan);
+    }
+}
+
+@media (hover: hover) {
+    button.btn:hover {
+        background-color: var(--prymary-color-cyan);
+    }
+}
