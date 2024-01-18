@@ -1,31 +1,13 @@
 # Projetos Concluídos do Frontend Mentor
 
-Este repositório contém os projetos que foram concluídos como parte do desafio do Frontend Mentor. Cada projeto é uma oportunidade para praticar e aprimorar as habilidades de desenvolvimento web.
+Este repositório contém os projetos que foram concluídos como parte do desafio do Frontend Mentor. Cada projeto foi uma oportunidade para praticar e aprimorar as habilidades de desenvolvimento web.
 
-## Projetos
+## Autores
 
-Aqui estão os projetos concluídos até o momento:
+- GitHub [@andressa-l](https://www.github.com/andressa-l)
+- FrontendMentor [@andressa-l](https://www.frontendmentor.io/profile/andressa-l)
 
-### [Nome do Projeto 1](link-para-o-projeto-1)
 
-Breve descrição do projeto 1.
 
-### [Nome do Projeto 2](link-para-o-projeto-2)
-
-Breve descrição do projeto 2.
-
-### [Nome do Projeto 3](link-para-o-projeto-3)
-
-Breve descrição do projeto 3.
-
-### [Nome do Projeto 4](link-para-o-projeto-4)
-
-Breve descrição do projeto 4.
-
-## Como Contribuir
-
-Se você gostaria de contribuir com este repositório, sinta-se à vontade para fazer um fork e enviar um pull request com suas melhorias.
-
-## Licença
-
-Este projeto está licenciado sob a [Licença XYZ](link-para-a-licenca).
+<div align="center">Feito com 💜 por <a href="https://github.com/andressa-l">Andressa</a>.</div>
+<br />
